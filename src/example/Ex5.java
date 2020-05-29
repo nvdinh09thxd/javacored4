@@ -5,7 +5,7 @@ public class Ex5 {
 		TenNguoiNuocNgoai ngoai = new TenNguoiNuocNgoai("Nguyen Hoang", "Anh");
 		System.out.println("Ngoai: " + ngoai.toString());
 
-		TenNguoiViet viet = new TenNguoiViet(ngoai.getHo(), ngoai.getTen());
+		TenNguoiViet viet = new TenNguoiViet("Nguyen Hoang", "Anh");
 		System.out.println("Viet: " + viet.toString());
 	}
 }
