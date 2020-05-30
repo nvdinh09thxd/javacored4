@@ -39,10 +39,12 @@ public class SinhVien {
 		System.out.print("Ten sinh vien: ");
 		this.TenSV = sc.nextLine();
 	}
+
 	public void viewSV() {
-		System.out.println("Ma sinh vien: "+this.MaSV);
-		System.out.println("Ten sinh vien: "+this.TenSV);
+		System.out.println("Ma sinh vien: " + this.MaSV);
+		System.out.println("Ten sinh vien: " + this.TenSV);
 	}
+
 	public static void main(String[] args) {
 		SinhVien sv = new SinhVien();
 		sv.setSV();

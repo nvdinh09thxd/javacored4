@@ -28,7 +28,7 @@ public class FacebookAccount {
 
 	// phương thức like
 	public String like() {
-		return "�?ã like";
+		return "Đã like";
 	}
 
 	// phương thức getter (lấy dữ liệu) - setter (gán dữ liệu)

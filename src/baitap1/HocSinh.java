@@ -78,7 +78,6 @@ public class HocSinh {
 		this.ly = Integer.parseInt(sc.nextLine());
 		System.out.print("Hoa: ");
 		this.hoa = Integer.parseInt(sc.nextLine());
-
 	}
 
 	public void display() {
